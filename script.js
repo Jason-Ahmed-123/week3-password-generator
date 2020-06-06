@@ -18,8 +18,9 @@ var uppercase = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M"
 
 // Start function to generate password
 
-// Password length:
 function generatePassword() {
+
+    // Variable for password length:
     var length = (prompt("how many characters would you like in your password? Choose between 8 and 128."));
 
     // If user does not select value:
@@ -31,7 +32,6 @@ function generatePassword() {
     else if (length < 8 || length > 128) {
         alert("This needs a value between 8 and 128!");
     }
-
 
     // After correct number of characters has been input, pop-up question "confirm" dialog boxes:
     else {
@@ -47,7 +47,7 @@ function generatePassword() {
     // This variable will generate the password randomly:
     var result = []
 
-    // For 4 negatives:
+    // For 4 negative options:
     if (!confirmCharacter && !confirmNumber && !confirmUppercase && !confirmLowercase) {
         choices = alert("You must choose a criteria!");
     }
