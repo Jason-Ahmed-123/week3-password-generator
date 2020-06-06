@@ -9,7 +9,7 @@ A website that allows for the creation of random passwords
 * JavaScript
 
 ## Website
-https://jason-ahmed-123.github.io/run-buddy/
+https://jason-ahmed-123.github.io/week3-password-generator/
 
 ## Contribution
 Made with ❤️ by Jason Ahmed
