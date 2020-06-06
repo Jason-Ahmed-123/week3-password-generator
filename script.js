@@ -129,6 +129,8 @@ function generatePassword() {
 
     console.log(length)
 
+    // Learning Assistant helped me work through the following:
+
     // Random selection for all variables: 
     for (var i = 0; i < length; i++) {
         var pickpossibleChars = possibleChars[Math.floor(Math.random() * possibleChars.length)];
