@@ -121,13 +121,12 @@ function generatePassword() {
     }
 
 
-    //Use a for loop (length is the number the user chose for the password)
+    //Use a for loop (length is the number of characters the user chose for the password)
+
+    console.log(length);
 
     // this is the moment you get back the info to the variable password that calls the function
     // push selected-number random items from possibleChars array into the results array using math.random to choose random index
-
-
-    
 
     // Learning Assistant helped me work through the following:
 
