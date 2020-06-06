@@ -127,7 +127,7 @@ function generatePassword() {
     // push selected-number random items from possibleChars array into the results array using math.random to choose random index
 
 
-    console.log(length)
+    
 
     // Learning Assistant helped me work through the following:
 
